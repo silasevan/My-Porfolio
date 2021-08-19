@@ -1,0 +1,121 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.container{
+    background-color: green;
+    font-size: 20px;
+    color:white;
+    position: relative;
+    width:100%;
+
+}
+@media (max-width: 600px) {
+    .container{
+      display:block;
+      width:100%;
+
+    }
+    .nav{
+        display:none;
+    }
+    .card{
+        display:block;
+
+    }
+    .card img{
+        margin-right: 20px;
+    }
+  }
+  @media(max-width:400){
+      .container{
+          display:block;
+      }
+      .footer{
+          width:100%;
+          margin-right:15px;
+      }
+  }
+ ul{
+    list-style-type: none;
+display:flex;
+padding:8px;
+}
+ul li{
+    margin:5px;
+}
+
+.nav{
+     float: left;
+     margin-left:170px;
+}
+.nav li a{
+    color:white;
+    text-decoration: none;
+}
+.nav li a:hover{
+    color:pink
+}
+
+.card{
+     margin-top: 30px;
+     width:60%;
+    margin-left:30%;
+    border:1px solid green;
+     
+}
+
+
+
+.card h1{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.card p{
+    font-size:22px;
+    display:flex;
+    margin-left:200px;
+    margin-bottom: 25px;
+    float:right;
+    color:black;
+}
+ .grid{
+     margin-top: 200px;
+     display:grid;
+     grid-template-columns: 200px 300px 200px;
+     justify-content: center;
+     align-content: center;
+     grid-gap:10px;
+     width:100%;
+     font-size: 22px;
+     border:2px solid green;
+     background-color: lightseagreen;
+     color:white
+     
+ }
+ .one,.two,.three{
+    margin:40px;
+
+ }
+ .three{
+     
+ }
+.footer{
+    
+    margin-top:80px;
+    width:100%;
+    background-color: lightgreen;
+    color:white;
+}
+.footer li{
+    margin-left:15%;
+    font-size: 18px;
+    
+}
+.footer p{
+    margin-left:50%;
+    padding:10px;
+    font-size:22px;
+    color:white;
+}
